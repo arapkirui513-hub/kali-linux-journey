@@ -1,0 +1,184 @@
+# ==========================================
+# Kali Linux Learning Repository
+# .gitignore File
+# ==========================================
+
+# ============ SECURITY - NEVER COMMIT ============
+
+# SSH Keys
+*.key
+*.pem
+*.ppk
+id_rsa
+id_rsa.pub
+*.pub
+
+# Private Keys & Certificates
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Password Files
+*password*
+*passwd*
+*secret*
+*credentials*
+*apikey*
+*api_key*
+.env
+
+# Sensitive Directories
+secrets/
+private/
+confidential/
+
+# ============ SYSTEM FILES ============
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============ EDITOR FILES ============
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Nano
+*.save
+*.swp
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# ============ LOGS & TEMPORARY FILES ============
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# ============ COMPILED & EXECUTABLES ============
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# C/C++
+*.o
+*.out
+*.exe
+
+# Java
+*.class
+*.jar
+
+# ============ ARCHIVES ============
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ============ DATABASES ============
+
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# ============ PERSONAL NOTES ============
+
+# Private notes
+*private-notes*
+*personal*
+TODO-private.md
+
+# Draft files
+*draft*
+*wip*
+
+# ============ SCREENSHOTS WITH SENSITIVE INFO ============
+
+# If screenshots contain IPs, usernames, etc.
+screenshots/*-sensitive.*
+
+# ============ PRACTICE/TEST FILES ============
+
+# Don't commit practice output
+practice_output/
+test_results/
+sandbox/
+
+# ============ LARGE FILES ============
+
+# ISOs
+*.iso
+
+# Virtual Machines
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+
+# ============ NODE/NPM (if used) ============
+
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# ============ GIT SPECIFICS ============
+
+.git/
+*.orig
+
+# ==========================================
+# END OF .gitignore
+# ==========================================
+
+# REMEMBER: Review before every commit!
+# Check with: git status
